@@ -1,0 +1,65 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center and stack children vertically in the navigation container */
+.nav-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Center content vertically in the logo and profile sections */
+.logo,
+.profil {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Style the navigation list */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    background-color: #bdc6eb;
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+}
+
+/* Add spacing on the left and right of list items */
+ul li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Style icons within list items */
+ul li i {
+    font-size: 3rem;
+}
+
+/* Set a fixed height for images */
+img {
+    height: 5rem;
+}
+
+/* Add a circular border to profile images */
+.profil img {
+    border-radius: 50%;
+    max-width: 100%;
+    border: 2px solid #000;
+}
+
+/* Add any additional spacing or styling as needed */
