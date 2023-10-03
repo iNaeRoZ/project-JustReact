@@ -63,3 +63,15 @@ img {
 }
 
 /* Add any additional spacing or styling as needed */
+#heart-icon {
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+#heart-icon:active {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: red
+}
